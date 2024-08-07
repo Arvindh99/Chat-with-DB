@@ -11,7 +11,7 @@ pd.set_option('display.precision', 2)
 st.set_page_config(layout="wide",page_title="Retrieve SQL query")
 
     
-genai.configure(api_key="AIzaSyAEb3_JzsOkmoj4h0hdfV0JvTFn43rKyRg")
+genai.configure(api_key="Add your api key") 
 
 def get_gemini_response(question,prompt):
     model=genai.GenerativeModel('gemini-pro')
